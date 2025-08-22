@@ -36,7 +36,8 @@ if __name__ == "__main__":
     #print(divide(4,0)) #Error al dividir, division by zero
     #print(power(2,2))#Error en la potencia
     #print(square_root(-50)) # Error en la raiz, no hay raices negativas, deberia de impedir la operacion
-    print(average([])) #Error al poner lista vacias, estaria mejor mostrar nulo
+    #print(average([])) #Error al poner lista vacias, estaria mejor mostrar nulo
+    print(maximum([1,2,3,3,4,6])) #Error en el valor esperado, el valor maximo deberia ser 6
 
 
 
