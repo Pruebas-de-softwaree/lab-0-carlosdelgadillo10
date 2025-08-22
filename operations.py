@@ -35,7 +35,10 @@ if __name__ == "__main__":
     print(multiply(3,4))
     #print(divide(4,0)) #Error al dividir, division by zero
     #print(power(2,2))#Error en la potencia
-    print(square_root(-50)) # Error en la raiz, no hay raices negativas, deberia de impedir la operacion
+    #print(square_root(-50)) # Error en la raiz, no hay raices negativas, deberia de impedir la operacion
+    print(average([])) #Error al poner lista vacias, estaria mejor mostrar nulo
+
+
 
     print("end test")
 
