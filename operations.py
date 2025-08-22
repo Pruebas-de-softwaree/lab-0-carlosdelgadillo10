@@ -34,7 +34,8 @@ if __name__ == "__main__":
     print(subtract(3,4))
     print(multiply(3,4))
     #print(divide(4,0)) #Error al dividir, division by zero
-    print(power(2,2))#Error en la potencia
+    #print(power(2,2))#Error en la potencia
+    print(square_root(-50)) # Error en la raiz, no hay raices negativas, deberia de impedir la operacion
 
     print("end test")
 
