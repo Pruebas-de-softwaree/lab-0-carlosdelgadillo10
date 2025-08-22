@@ -33,7 +33,8 @@ if __name__ == "__main__":
     print(add(2,3))
     print(subtract(3,4))
     print(multiply(3,4))
-    print(divide(4,0)) #Error al dividir, division by zero
+    #print(divide(4,0)) #Error al dividir, division by zero
+    print(power(2,2))#Error en la potencia
 
     print("end test")
 
