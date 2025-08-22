@@ -30,7 +30,10 @@ if __name__ == "__main__":
 
     print("start test")
 
-
+    print(add(2,3))
+    print(subtract(3,4))
+    print(multiply(3,4))
+    print(divide(4,0)) #Error al dividir, division by zero
 
     print("end test")
 
